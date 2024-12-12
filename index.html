@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #d6c7ca;
+        }
+
+        #card-container {
+            display: flex; 
+            gap: 50px;
+            flex-wrap: wrap; 
+        }
+        img {
+            border-radius: 8px;
+            width: 250px;
+            height: 300px;
+            object-fit: cover; 
+        }
+
+        card-component {
+            margin: 10px; 
+            background: white; 
+            padding: 10px; 
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="card-container">
+        <card-component>
+            <div slot="header">
+                <h2>карточка 1</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки1</p>
+                <img src="https://i.pinimg.com/474x/ce/71/5c/ce715c37f1df7f75ab4d08241a4106fe.jpg" alt="card-photo">
+            </div>
+        </card-component>    
+        <card-component>
+            <div slot="header">
+                <h2>карточка 2</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки2</p>
+                <img src="https://i.pinimg.com/474x/bd/80/c8/bd80c82556f5cca01831e6a68e8a66e7.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+        <card-component>
+            <div slot="header">
+                <h2>карточка 3</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки3</p>
+                <img src="https://i.pinimg.com/474x/22/63/26/226326267c072588ee5d44a348cf48de.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+        <card-component>
+            <div slot="header">
+                <h2>карточка 4</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки4</p>
+                <img src="https://i.pinimg.com/474x/a2/3c/33/a23c33f9df156797f9b86ba76a67d1f8.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+        <card-component>
+            <div slot="header">
+                <h2>карточка 5</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки5</p>
+                <img src="https://i.pinimg.com/474x/d3/25/e4/d325e432d1148fa39f2a8d6c9c0c2b06.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+        <card-component>
+            <div slot="header">
+                <h2>карточка 6</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки6</p>
+                <img src="https://i.pinimg.com/474x/a8/8c/25/a88c252787d3b1568c15a1fe36f86f31.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+        <card-component>
+            <div slot="header">
+                <h2>карточка 7</h2>
+            </div>
+            <div slot="content">
+                <p>цветочки7</p>
+                <img src="https://i.pinimg.com/474x/79/64/78/796478227d3d07ba113ebdd042d951c0.jpg" alt="card-photo">
+            </div>
+        </card-component> 
+    
+        </card-component> 
+    </div>
+</body>
+</html>
