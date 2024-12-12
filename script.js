@@ -7,13 +7,10 @@ class CardComponent extends HTMLElement {
             <style>
                 .card {
                     background-color: white;
-                    border: 3px solid #a3959b;
+                    border: 3px solid #d6c7ca;
                     padding: 16px;
                     margin: 8px;
                     border-radius: 5px;
-                    max-width: 300px;
-                    box-sizing: border-box;
-                    overflow: hidden;
                 }
                 .card-content {
                     font-size: 16px;
